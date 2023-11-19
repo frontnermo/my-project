@@ -1,0 +1,158 @@
+header{
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+
+}
+.img img{
+    width: 100px;
+    height: 80px;
+    /* border-radius: 50%; */
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 100px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+nav ul li a{
+    text-decoration: none;
+padding: 10px 20px;
+background-color: brown;
+color: cornsilk;
+border-radius: 10px;
+}
+section{
+    width: 100%;
+    height: 470px;
+    /* border: 1px solid red; */
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.section-info h2{
+    font-size: 70px;
+    font-family: sans-serif;
+}
+button{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: blanchedalmond;
+    text-transform: uppercase;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+
+.icon{
+    width: 100%;
+    height: 250px;
+    border: 1px solid rebeccapurple;
+    background-color: rgb(87, 24, 24);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.icon-item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+width: 400px;
+height: 300px;
+/* border: 1px solid red; */
+}
+.items{
+    font-size: 50px;
+    width: 70px;
+    height: 70px;
+    background-color: seashell;
+}
+.items-info{
+    color: snow;
+}
+.items-info h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.items-info a{
+    color: cornsilk;
+    text-decoration: none;
+    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: burlywood;
+}
+
+.FEATURED{
+    width: 100%;
+    height: 100PX;
+    /* border: 1px solid red; */
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.FEATURED-ITEM{
+    width: 450PX;
+    height: 3PX;
+    background-color: rgb(95, 95, 109);
+
+}
+.featured-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    /* border: 1px solid red; */
+
+}
+.PERANT-featured{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+
+}
+.featured-info i{
+    font-size: 150px;
+}
+.picks{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid red; */
+    background-color: brown;
+    
+
+}
+.parent-picks{
+    width: 600px;
+    height: 400px;
+    border: 1px solid rgb(84, 48, 180);
+    overflow: auto;
+    background-color: cornsilk;
+
+}
+.parent-img{
+    float: left;
+}
+.parent-item{
+    float: left;
+    margin-left: 50px;
+}
+.parent-picks button{
+    width: 300PX;
+    height: 50PX;
+    background-color: black;
+    color: blanchedalmond;
+    margin-top: 100px;
+    /* margin-right: 10px; */
+}
+.pick{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
